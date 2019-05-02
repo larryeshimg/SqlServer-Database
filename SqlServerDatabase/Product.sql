@@ -3,5 +3,7 @@ CREATE TABLE [dbo].[Product] (
     [Name]  NVARCHAR (50) NULL,
     [Cost]  INT           NULL,
     [Color] VARCHAR (50)  NULL,
+    [Cotisation]  INT           NULL,
+    [Enfants] VARCHAR (50)  NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
